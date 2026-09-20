@@ -1,0 +1,4 @@
+import { motion } from "motion/react";
+import Container from "../ui/Container";
+
+export default function ExperienceSection() { return <section className="experience"><Container><div className="experience-copy"><div className="section-tag"><span>03</span>INTERACTION</div><motion.h2 initial={{ opacity: 0, y: 60 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: .4 }} transition={{ duration: 1 }}>EVERY<br />MOVEMENT<br /><em>TELLS A STORY.</em></motion.h2><p>Motion should never exist just to impress. Every shift guides attention, explains hierarchy, or reveals meaning.</p><div className="experience-index"><span>CORE</span><i /><span>RINGS</span><i /><span>FIELD</span></div></div><div className="experience-spec"><span>OBJECT STATE</span><b>EXPLODED / 01</b><small>Scroll-linked spatial choreography</small></div></Container></section>; }

@@ -1,0 +1,1 @@
+export default function Lights() { return <><ambientLight intensity={.28} /><directionalLight position={[4, 5, 6]} intensity={2.2} color="#f5f5ff" /><pointLight position={[-5, 1, 2]} intensity={22} distance={10} color="#7c5cff" /><pointLight position={[4, -3, 1]} intensity={14} distance={9} color="#5eead4" /></>; }
